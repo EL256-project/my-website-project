@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Lubiri Secondary School">
+    <meta name="author" content="DOROTHY">
+    <title>About Us | Lubiri Secondary School</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+          header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  .dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Style the "accademic " button */
+
+
+/* Hidden by default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-top: 1px solid #ddd;
+  border-radius: 9px;
+}
+
+/* Individual links inside the dropdown */
+.dropdown-content a {
+  color: #004a99;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color:transparent
+}
+
+/* SHOW the menu when hovering over the "About" container */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+  header nav a,#el {
+    text-decoration: none;
+    color: #004a99; /* School Blue */
+    font-weight: bold;
+    margin-left: 20px;
+     display: inline-block;
+  }
+        /* 1. GLOBAL SETTINGS */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f2f5; 
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* 2. THE HERO HEADER */
+        .heading h1 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('WhatsApp Image 2026-04-28 at 08.21.09.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+            margin: 0;
+            font-size: clamp(32px, 8vw, 60px);
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            border-bottom: 8px solid #fbbf24; 
+        }
+
+        /* 3. COLOR BLOCKING SECTIONS */
+        .card {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 40px;
+            border-radius: 20px;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .history-section {
+            background: #3f5271; 
+            color: #f1f5f9;
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .governance-section {
+            background-color: #e0f2fe;
+            border-left: 12px solid #0369a1;
+            color: #13577e;
+        }
+
+        .activities-section {
+            background-color: #3c5f82;
+            color: #f1f5f9;
+        }
+
+        .leadership-section {
+            background-color: #f2f2f7;
+            border: 2px solid #38bdf8;
+        }
+
+        /* 4. TEXT STYLES */
+        h2 { font-size: 28px; margin-top: 0; text-transform: uppercase; }
+
+        .badge {
+            background: #d1ed5e; 
+            color: #000;
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 14px;
+            display: inline-block;
+        }
+
+        .highlight { color: #38bdf8; font-weight: 600; }
+
+        /* 5. IMAGE STYLES */
+        img {
+            border-radius: 15px;
+            transition: all 0.5s ease;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+            display: block;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+        }
+
+        /* NEW: Uniform size for leadership photos */
+        .leader-img {
+            width: 250px;      /* Fixed width */
+            height: 300px;     /* Fixed height */
+            object-fit: cover; /* Crops image to fill the box without stretching */
+            margin: 0 auto;
+        }
+
+        .leadership-grid {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        /* 6. RESPONSIVE DESIGN */
+        @media (max-width: 850px) {
+            .history-section { flex-direction: column; text-align: center; }
+            .history-section img { width: 100% !important; max-width: 350px; }
+        }
+        #contacts {
+  background-color: white;
+  color: #004a99;;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  gap: 30px;
+  align-items: center;
+   border: #004a99 solid 2px;
+  border-radius: 8px;
+}
+    </style>
+</head>
+<body>
+      <header>
+    <nav>
+      <div style="display: flex; align-items: center;">
+        <img src="WhatsApp Image 2026-04-21 at 07.13.50.jpeg" alt="Logo" class="logo" width="70" height="70">
+        <span style="font-weight: bold; margin-left: 10px;">LUBIRI SENIOR SECONDARY SCHOOL</span>
+      </div>
+      <div>
+        <a href="homepage.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="Gallery.html">Gallery</a>
+        
+        <div class="dropdown">
+    <p id="el">Academics</p>
+    
+    <div class="dropdown-content">
+      <a href="CURRICULUM.HTML">Curriculum</a>
+      <a href="Co-curricular activites.html">Co-curricular Activities</a>
+    </div>
+        <a href="contact.html">Contact&Admissions</a>
+      </div>
+    </nav>
+  </header><br><br><br>
+
+
+    <div class="heading">
+        <h1>About Us</h1>
+    </div>
+
+    <div class="card history-section">
+        <div class="content">
+            <h2>Our History</h2>
+            <p>Lubiri Secondary School was founded by <span class="highlight">Sir Edward Mutesa II in 1956</span>. Originally located inside the King’s palace, it has grown into an academic giant in Kampala.</p>
+        </div>
+        <img src="WhatsApp Image 2026-04-28 at 08.22.51.jpeg" alt="Lubiri SS" style="width: 350px;">
+    </div>
+
+    <section class="card governance-section">
+        <h2>Governance Structure</h2>
+        <p>We maintain a strong, transparent leadership led by the <span class="badge">Board of Governors</span> and the <span class="badge">PTA Committee</span>, ensuring student success remains our top priority.</p>
+    </section>
+
+    <section class="card activities-section">
+        <h2>Major Activities</h2>
+        <p><span class="highlight">Academics:</span> A powerhouse school sending thousands to University.</p>
+        <p><span class="highlight">Sports:</span> National champions in Handball, Basketball, and Football.</p>
+        <p><span class="highlight">Clubs:</span> Home to the vibrant Writers' Club and "The Lubirian" magazine.</p>
+    </section>
+
+    <section class="card leadership-section">
+        <h2 style="color: #0369a1; text-align: center;">School Leadership</h2>
+        <div class="leadership-grid">
+            <div style="text-align: center;">
+                <p style="font-weight: bold;">Current Headteacher</p>
+                <img src="WhatsApp Image 2026-04-21 at 08.16.44.jpeg" alt="Headteacher" class="leader-img">
+            </div>
+            <div style="text-align: center;">
+                <p style="font-weight: bold;">Former Headteacher</p>
+                <img src="WhatsApp Image 2026-04-28 at 08.22.17.jpeg" alt="Former Headteacher" class="leader-img">
+            </div>
+        </div>
+    </section>
+     <footer>
+        <section id="contacts">
+          <div class="contact-header">
+            <h2>Contact Us</h2>
+            <p>Email: info@lubirischool.com</p>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+</svg>
+        
+            <p>                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+</svg>
+  +256 123 456 789</p>
+        
+            
+
+          </div>
+      
+      <div class="icons">
+            <a href="https://www.facebook.com/lubirischool" target="_blank" class="icons"><i class="fa-brands fa-facebook"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg> Facebook</a>
+</div>
+<div class="icons">
+            <a href="https://www.twitter.com/lubirischool" target="_blank" class="icons"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+</svg>
+
+
+              Twitter</a>
+              </div>
+              <div class="icons">
+            <a href="https://youtube.com/shorts/XgQdYg1HuqY?si=7DX5p3afG2II7pFF" target="_blank" class="icons">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">
+  <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2m6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+</svg> YouTube</a>
+</div>
+            
+        </section>
+        
+    </footer>
+
+</body>
+</html>

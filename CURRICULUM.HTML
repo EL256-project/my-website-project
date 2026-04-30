@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR CURRICULUM - Lubiri Secondary School</title>
+    <style>
+         header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  .dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Style the "accademic " button */
+
+
+/* Hidden by default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-top: 1px solid #ddd;
+  border-radius: 9px;
+}
+
+/* Individual links inside the dropdown */
+.dropdown-content a {
+  color: #004a99;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color:transparent
+}
+
+/* SHOW the menu when hovering over the "About" container */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+  header nav a,#el {
+    text-decoration: none;
+    color: #004a99; /* School Blue */
+    font-weight: bold;
+    margin-left: 20px;
+     display: inline-block;
+  }
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+        }
+
+        /* Hero and Dora Sections (Shared Background Styling) */
+        .hero, .dora {
+            background-size: cover;
+            background-position: center;
+            min-height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 40px;
+            padding: 20px;
+            max-width: 1000px;
+            margin-top: 30px;
+             margin-left: 40px;
+             margin-right: 40px;
+
+        }
+
+        /* Individual Background Images */
+        .hero {
+            background-image: url('learning.jpeg');
+        }
+
+        .dora {
+            background-image: url('ict skills.jpg.jpeg'); /* You can change this to another image if preferred */
+        }
+
+        /* The Dark Overlay Box */
+         .dora-content {
+            background-color: rgba(0, 0, 0, 0.6); 
+            color: white;
+            padding: 30px;
+            text-align: center;
+            width: 85%;
+            border-radius: 8px;
+        }
+        #man{
+            background-color:  #3f5271; ; 
+            color: white;
+            padding: 30px;
+            text-align: center;
+            width: 85%;
+            border-radius: 8px;
+            max-width: 1000px;
+            margin: auto;
+             
+        }
+
+        #man h1, .dora-content h2 {
+            color: #f9f900; /* School yellow */
+            margin-top: 0;
+            text-transform: uppercase;
+        }
+
+        /* Promotion & Bursary Boxes */
+        .ops {
+            background: #e8f4fd;
+            border-left: 5px solid #3498db;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+            max-width: 1000px;
+             margin: 20px ;
+                margin-left: 40px;
+                 margin-right: 40px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        strong {
+            color: #12d300; /* Green highlight as requested */
+        }
+
+        section:not(.dora) {
+            background: #fff;
+            padding: 25px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        #outline{
+              border: 2px solid black;
+              outline: #4CAF50 solid 10px;
+               margin: auto;  
+               padding: 20px;
+               text-align: center;
+             max-width: 1000px;
+              margin-top: 30px;
+               margin-bottom: 30px;
+               margin-right: 40px;
+                margin-left: 40px;
+        }
+        #contacts {
+  background-color: white;
+  color: #004a99;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  gap: 30px;
+  align-items: center;
+   border: #004a99 solid 2px;
+  border-radius: 8px;
+
+}
+
+    </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div style="display: flex; align-items: center;">
+        <img src="WhatsApp Image 2026-04-21 at 07.13.50.jpeg" alt="Logo" class="logo" width="70" height="70">
+        <span style="font-weight: bold; margin-left: 10px;">LUBIRI SENIOR SECONDARY SCHOOL</span>
+      </div>
+      <div>
+        <a href="homepage.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="Gallery.html">Gallery</a>
+        
+        <div class="dropdown">
+    <p id="el">Academics</p>
+    
+    <div class="dropdown-content">
+      <a href="CURRICULUM.HTML">Curriculum</a>
+      <a href="Co-curricular activites.html">Co-curricular Activities</a>
+    </div>
+        <a href="contact.html">Contact&Admissions</a>
+      </div>
+    </nav>
+  </header><br><br><br>
+
+
+    <section class="hero">
+        <div id="man">
+            <h1>CURRICULUM</h1>
+            <p>Our academics help to inspire students to focus on their achievements and shape bright futures ahead of them.</p>
+            <p>At <strong>Lubiri Secondary School</strong>, our primary purpose is academic excellence.</p>
+        </div>
+    </section>
+
+    <p>We offer:</p>
+    <ol>
+        <li>Ordinary Level (O-Level)</li> 
+        <li>Advanced Level (A-Level)</li>
+    </ol>
+
+    <section class="dora">
+        <div class="dora-content">
+            <h2>OUR ORDINARY LEVEL</h2>
+            <p>We teach a variety of subjects at Ordinary Level, chosen to mold our students in all aspects of life. Our O-Level subjects meet the standards of UNEB, and we have qualified teachers for the new curriculum that started in 2020.</p>
+            <p><em>Check our full subject list below.</em></p>
+        </div>
+    </section>
+
+    <section class="outline">
+        <h3>Our O-Level Subjects Include:</h3>
+        <ol>
+            <li><strong>SCIENCE SUBJECTS</strong>
+                <ul>
+                    <li>Mathematics</li>
+                    <li>Physics</li>
+                    <li>Biology</li>
+                    <li>Chemistry</li>
+                </ul>
+            </li>
+            <li><strong>ARTS SUBJECTS</strong>   
+                <ul>
+                    <li>Geography</li>
+                    <li>History</li>
+                    <li>Religious Education</li>
+                </ul>
+            </li>
+            <li><strong>LANGUAGES</strong>
+                <ul>
+                    <li>French</li>
+                    <li>Kiswahili</li>
+                    <li>Luganda</li>
+                    <li>Literature</li>
+                    <li>English</li>
+                </ul>
+            </li>
+            <li><strong>VOCATIONAL & OTHER</strong>
+                <ul>
+                    <li>Commerce</li>
+                    <li>IPS Art</li>
+                    <li>Computer Studies</li>
+                    <li>Agric. Principles & Practices</li>
+                    <li>Foods and Nutrition</li>
+                    <li>Technical Drawing</li>
+                    <li>Entrepreneurship Educ.</li>
+                </ul>
+            </li>
+        </ol>
+         
+    </section>
+
+    <section id="outline">
+        <h4>OUR TOURS AND SEMINARS</h4>
+        <p>The school tours and seminars are organized to enhance students’ academic experience by integrating classroom knowledge with practical exposure.</p>
+    </section>
+
+    <section>
+        <h2>OUR ADVANCED LEVEL</h2>
+        <p>Elevate your academic journey and secure your future at <strong>Lubiri Secondary School</strong>. Join us and become part of a legacy that shapes the leaders of tomorrow!</p>
+        
+        <div>
+            <h3>Subjects Taught</h3>
+            <ul style="column-count: 2;">
+                <li>Mathematics</li>
+                <li>Physics</li>
+                <li>Chemistry</li>
+                <li>Biology</li>
+                <li>Economics</li>
+                <li>Geography</li>
+                <li>History</li>
+                <li>Literature in English</li>
+                <li>Art & Design</li>
+                <li>Divinity / Islam</li>
+            </ul>
+        </div>
+
+        <div class="ops">
+            <h3>Promotion Criteria</h3>
+            <p>Students must attain <strong>10 points</strong> and above to be promoted to Senior 6.</p>
+        </div>
+
+        <div class="ops">
+            <h3>Termly Bursary</h3>
+            <p>A bursary is awarded to students scoring <strong>18 points</strong> and above every term.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>FEES STRUCTURE: O & A LEVEL</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Level</th>
+                    <th>Class</th>
+                    <th>Day Scholar (UGX)</th>
+                    <th>Boarding Scholar (UGX)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4"><strong>O-Level</strong></td>
+                    <td>Senior 1</td>
+                    <td rowspan="2">450,000</td> 
+                    <td rowspan="2">850,000</td> 
+                </tr>
+                <tr><td>Senior 2</td></tr>
+                <tr>
+                    <td>Senior 3</td>
+                    <td rowspan="2">500,000</td> 
+                    <td rowspan="2">950,000</td>
+                </tr>
+                <tr><td>Senior 4</td></tr>
+                <tr>
+                    <td rowspan="2"><strong>A-Level</strong></td>
+                    <td>Senior 5</td>
+                    <td>600,000</td>
+                    <td>1,100,000</td>
+                </tr>
+                <tr>
+                    <td>Senior 6</td>
+                    <td>650,000</td>
+                    <td>1,200,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+      <footer>
+        <section id="contacts">
+          <div class="contact-header">
+            <h2>Contact Us</h2>
+            <p>Email: info@lubirischool.com</p>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+</svg>
+        
+            <p>                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+</svg>
+  +256 123 456 789</p>
+        
+            
+
+          </div>
+      
+      <div class="icons">
+            <a href="https://www.facebook.com/lubirischool" target="_blank" class="icons"><i class="fa-brands fa-facebook"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg> Facebook</a>
+</div>
+<div class="icons">
+            <a href="https://www.twitter.com/lubirischool" target="_blank" class="icons"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+</svg>
+
+
+              Twitter</a>
+              </div>
+              <div class="icons">
+            <a href="https://youtube.com/shorts/XgQdYg1HuqY?si=7DX5p3afG2II7pFF" target="_blank" class="icons">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">
+  <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2m6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+</svg> YouTube</a>
+</div>
+            
+        </section>
+        
+    </footer>
+
+
+</body>
+</html>

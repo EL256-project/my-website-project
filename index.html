@@ -26,8 +26,9 @@
       <a href="CURRICULUM.HTML">Curriculum</a>
       <a href="Co-curricular activites.html">Co-curricular Activities</a>
     </div>
-        <a href="contact.html">Admissions&Contact</a>
+  
       </div>
+        <a href="contact.html">Admissions&Contact</a>
     </nav>
   </header>
 
@@ -84,17 +85,18 @@
         </div><br><br>
           </section>
          
-      <h2>Gallery check</h2>
-    <section id="campus life">
+        <h2 id="myh2">Gallery check</h2>
+    <section class="campus-life">
+      
         <img src="download (3) - Copy.jpg.jpeg" width="500" height="300" alt="Campus Life" id="main-image">
     
-         <div class="gallery-link-text">
+         
         
-         <a href="gallery.html">
-          <p>Explore more ></p>
+         <a href="Gallery.html" id="gallerytext">
+          Explore more >
          </a>
-        </div>
-      </div>
+        
+      
 
 
 
@@ -155,12 +157,29 @@
     <script>  
       const images=["bako.jpeg","G8Ql9lZXQAICns6.jpg","download (3) - Copy.jpg.jpeg"];
       let i=0;
+     const colors = ["red", "blue", "green", "purple"];
+      let colorIndex = 0;
+
       function autoslide(){
          document.getElementById("main-image").src = images[i];
   i = (i + 1) % images.length;
 
       }
       setInterval(autoslide, 3000);
+      
+
+function changeTextColor() {
+  const textElement = document.getElementById("gallerytext");
+  
+
+  textElement.style.color = colors[colorIndex];
+
+  
+  colorIndex = (colorIndex + 1) % colors.length;
+}
+
+
+setInterval(changeTextColor, 1000);
     </script>
 
 

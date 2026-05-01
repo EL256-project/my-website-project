@@ -222,20 +222,39 @@ color: #f1f5f9;
 }
 
 
- #gallery-link {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
+.campus-life {
+   display:flex;
+  justify-content: center;
   align-items: center;
- }
-#gallery-link-text {
+  gap: 30px;
+  padding: 50px;
+
   text-decoration: none;
   color: #004a99;
   font-weight: bold;
   font-size: 1.2rem;
   text-transform: uppercase;
-  text-align: center;
+  border:dotted 2px #004a99;
+  margin-bottom: 30px;
+  margin-top: 50px;
+   border: #004a99 solid 2px;
+  border-radius: 8px;
+      background-color: #e0f2fe;
+      width: 800px;
+      margin: 70px auto;
+  height: 500px;
+
 
 }
+#myh2{
+  text-align: center;
+  color: #004a99;
+  text-transform: uppercase;
+}
+#gallerytext{
+  text-decoration: none;
+  
+  transition: color 0.5s ease; 
 
 
+}

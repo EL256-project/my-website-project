@@ -86,10 +86,8 @@
          
       <h2>Gallery check</h2>
     <section id="campus life">
-        <img src="download (3) - Copy.jpg.jpeg" width="500" height="300" alt="Campus Life">
-        <img src="bako.jpeg" width="500" height="300" alt="Campus Life">
-      <div class="gallery-link">
-         <img src="G8Ql9lZXQAICns6.jpg" width="500" height="300" alt="Campus Life">
+        <img src="download (3) - Copy.jpg.jpeg" width="500" height="300" alt="Campus Life" id="main-image">
+    
          <div class="gallery-link-text">
         
          <a href="gallery.html">
@@ -154,6 +152,16 @@
         </section>
         
     </footer>
+    <script>  
+      const images=["bako.jpeg","G8Ql9lZXQAICns6.jpg","download (3) - Copy.jpg.jpeg"];
+      let i=0;
+      function autoslide(){
+         document.getElementById("main-image").src = images[i];
+  i = (i + 1) % images.length;
+
+      }
+      setInterval(autoslide, 3000);
+    </script>
 
 
 
